@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>DataLovers Pokemon</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <head>POKEPEDIA</head>
-    <main>
-      <div id="cardsContainer">
-      </div>
-      
-    </main>
-    <!-- <footer></footer> -->
+
+<head>
+  <meta charset="utf-8">
+  <title>DataLovers Pokemon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <head>POKEPEDIA</head>
+  <main>
+    <!-- Contenedor de botones para ordenar tarjetas Pokemon -->
+    <div id="btnContainer">
+      <button id="btnType" class="btn_sort">Tipo</button>
+      <button id="btnNum" class="btn_sort">N° creación</button>
+    </div>
+
+    <!-- Contenedor de tarjetas Pokemons -->
+    <section id="cardsContainer"></section>
+
+  </main>
+  <!-- <footer></footer> -->
 
 
-    <!-- <div id="root"></div> -->
-    <script src="main.js" type="module"></script>
-  </body>
+  <!-- <div id="root"></div> -->
+  <script src="main.js" type="module"></script>
+</body>
+
 </html>
