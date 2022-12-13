@@ -27,3 +27,10 @@
     border: 1px solid blue;
     padding: 5px 10px;
 }
+
+/*Responsive*/
+/* .cardsContainer div{
+    display: flex;
+    flex: wrap;
+    gap: 20 px;
+} */

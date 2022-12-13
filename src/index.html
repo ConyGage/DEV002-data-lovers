@@ -13,12 +13,20 @@
   <main>
     <!-- Contenedor de botones para ordenar tarjetas Pokemon -->
     <div id="btnContainer">
-      <button id="btnType" class="btn_sort">Tipo</button>
-      <button id="btnNum" class="btn_sort">N° creación</button>
+      <!-- <button id="btnType" class="btn_sort">Tipo</button>
+      <button id="btnNum" class="btn_sort">N° creación</button> -->
+      <label for="Ordenar">Ordenar:</label>
+      <br>
+      <select name="order" id="orderSelect">
+        <option id="optNumAsc" selected value="numAscend">Número Inferior</option>
+        <option id="optNumDes" value="numDescend">Número Superior</option>
+        <option id="optTypAsc" value="typeAscend">Acendente por Tipo</option>
+        <option id="optTypDes" value="typeDescend">Decendente por Tipo</option>
+      </select>
     </div>
 
     <!-- Contenedor de tarjetas Pokemons -->
-    <section id="cardsContainer"></section>
+    <section class="cardsContainer" id="cardsContainer"></section>
 
   </main>
   <!-- <footer></footer> -->
